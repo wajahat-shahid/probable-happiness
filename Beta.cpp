@@ -9,7 +9,21 @@ int main ()
 		cout<<"I love Pakistan."<<endl;	
 
 	bool isTodayFriday;
-	isTodayFriday= true;
+	
+	char opt;
+	cout<<"Enter y for yes and n for no: ";
+	cin>>opt;
+	
+	if(opt=='y')
+	isTodayFriday=true;
+	else
+	isTodayFriday=false;
+	
+	if(isTodayFriday)
+	cout<<"Bhai Nahana Parey gaa";
+	else
+	cout<<"Khaire hi hia Cheetey";
+	
 	if(isTodayFriday)
 	cout<<"Bhai Nahana Parey gaa";
 	else
