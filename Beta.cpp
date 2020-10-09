@@ -4,17 +4,18 @@ using namespace std;
 
 int main ()
 {
-	
+	cout<<"Hello There"<<endl;	
 	for (int i=0;i<5;i++)
 		cout<<"I love Pakistan."<<endl;	
 
+	//selction mechanism for Output
 	bool isTodayFriday;
 	
-	char opt;
+	char option;
 	cout<<"Enter y for yes and n for no: ";
-	cin>>opt;
+	cin>>option;
 	
-	if(opt=='y')
+	if(option=='y')
 	isTodayFriday=true;
 	else
 	isTodayFriday=false;
