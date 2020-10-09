@@ -4,11 +4,11 @@ using namespace std;
 
 int main ()
 {
-	
+	cout<<"Hello There"<<endl;	
 	for (int i=0;i<5;i++)
 		cout<<"I love Pakistan."<<endl;	
 
-	//selction mechanism
+	//selction mechanism for Output
 	bool isTodayFriday;
 	
 	char option;
