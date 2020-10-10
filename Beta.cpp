@@ -3,8 +3,7 @@
 using namespace std;
 
 int main ()
-{
-	cout<<"Hello There"<<endl;	
+{	
 	for (int i=0;i<5;i++)
 		cout<<"I love Pakistan."<<endl;	
 
@@ -19,11 +18,6 @@ int main ()
 	isTodayFriday=true;
 	else
 	isTodayFriday=false;
-	
-	if(isTodayFriday)
-	cout<<"Bhai Nahana Parey gaa";
-	else
-	cout<<"Khaire hi hia Cheetey";
 	
 	if(isTodayFriday)
 	cout<<"Bhai Nahana Parey gaa";
